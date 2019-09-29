@@ -1,0 +1,13 @@
+body {
+    background: #0a0a0a;
+    color: #fafafa;
+}
+
+.logo {
+    display: block;
+}
+
+p {
+    margin: 10vw 3vw 0;
+    font-size: 8vw;
+}
