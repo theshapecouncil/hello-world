@@ -3,11 +3,36 @@ body {
     color: #fafafa;
 }
 
+h1 {
+    font-size: 8vw;
+}
+
+h2 {
+    font-size: 7vw;
+}
+
 .logo {
     display: block;
+    max-width: 80vw;
+}
+
+div {
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.headline {
+    padding: 8vw 8vw 0;
+}
+
+.headline h1 {
+    margin: 10vw 0;
 }
 
 p {
-    margin: 10vw 3vw 0;
-    font-size: 8vw;
+    font-size: 5vw;
+}
+
+span {
+    color: #FBEE55;
 }
