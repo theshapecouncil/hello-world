@@ -1,14 +1,24 @@
 body {
     background: #0a0a0a;
     color: #fafafa;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
 }
 
 h1 {
     font-size: 36px;
+    font-weight: 300;
 }
 
 h2 {
     font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+
+.hours h2 {
+    padding-bottom: 12px;
+    border-bottom: solid #fafafa 1px;
 }
 
 img {
@@ -23,10 +33,11 @@ svg {
 section {
     padding-left: 8vw;
     padding-right: 8vw;
+    margin-bottom: 8vw;
 }
 
 section:last-child {
-    margin-bottom: 8vw;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -42,11 +53,11 @@ section:last-child {
 }
 
 .headline {
-    padding: 5vw 8vw 0;
+    padding: 0 8vw;
 }
 
 .headline h1 {
-    margin: 5vw 0;
+    margin: 64px 0;
 }
 
 .hours p {
@@ -115,15 +126,20 @@ figure.card figcaption {
 
 figure.card figcaption strong {
     display: block;
-    font-size: 24px;
-    line-height: 1;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+figure.card p {
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .date-time {
     align-items: center;
     display: flex;
-    font-weight: bold;
-    padding: 12px 0 6px;
+    padding: 6px 0;
 }
 
 .date-time span {
@@ -136,13 +152,6 @@ figure.card figcaption strong {
 
 .price {
     font-size: 30px;
-    font-weight: bold;
-}
-
-@media (min-width: 768px) {
-    figure.card {
-        width: 30vw;
-    }
 }
 
 @media (max-width: 1000px) {
@@ -160,4 +169,23 @@ figure.card figcaption strong {
         margin-left: 3vw;
         margin-top: 2.7vw;
     }
+}
+
+.flex-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.flex-header h1 {
+    margin-left: 80px;
+    margin-top: 56px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2vw;
+    row-gap: 2vw;
 }
