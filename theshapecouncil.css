@@ -137,17 +137,27 @@ figure.card p {
 }
 
 .date-time {
-    align-items: center;
-    display: flex;
     padding: 6px 0;
 }
 
 .date-time span {
+    display: block;
     font-size: 14px;
 }
-
 .date-time .symbol {
-    margin: 0 6px;
+    display: none;
+}
+
+@media (min-width: 900px) {
+.date-time {
+    align-items: center;
+    display: flex;
+}
+
+    .date-time .symbol {
+        display: block;
+        margin: 0 6px;
+    }
 }
 
 .price {
@@ -171,21 +181,36 @@ figure.card p {
     }
 }
 
-.flex-header {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 64px;
-}
-
 .flex-header h1 {
-    margin-left: 80px;
-    margin-top: 56px;
+    display: block;
+    margin: 8vw auto;
+    padding: 0 8vw;
 }
 
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2vw;
-    row-gap: 2vw;
+.card-container .card {
+    margin-bottom: 8vw;
+}
+
+@media (min-width: 900px) { 
+    .flex-header {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    .flex-header h1 {
+        margin: 8vw auto 0;
+    }
+
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2vw;
+        row-gap: 2vw;
+    }
+    .card-container .card {
+        margin-bottom: 0;
+    }
 }
