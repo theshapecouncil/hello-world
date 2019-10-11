@@ -101,7 +101,7 @@ figure.card:hover {
 figure.card img {
     grid-area: 1 / 1 / 3 / 2;
     align-self: center;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
 figure.card figcaption {
