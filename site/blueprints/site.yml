@@ -13,7 +13,6 @@ columns:
   - width: 1/2
     sections:
       workshops: sections/workshops
-      notes: sections/notes
 
   # The second column has two sections, `notes` and `pages`
   - width: 1/2

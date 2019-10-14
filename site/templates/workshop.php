@@ -11,15 +11,22 @@
 ?>
 
 <?php snippet('header') ?>
-<main>
-  <article class="note">
-    <header class="note-header intro">
-      <h1><?= $page->title() ?></h1>
-      <time class="note-date"><?= $page->date()->toDate('d F Y') ?></time>
-    </header>
-    <div class="note-text text">
-      <?= $page->text()->kt() ?>
+<main class="event">
+  <?php if($image = $page->content->workshopImage()): ?>
+    <img src="<?= $image->toFile()->url() ?>" alt="">
+  <?php endif ?>
+  <header>
+    <h1><?= $page->eventName() ?></h1>
+    <div class="date-time">
+      <time class="event-date"><?= $page->date()->toDate('F d, Y') ?>  </time>
+      <span class="symbol">&#9670;</span>
+      <span><?= $page->time()->toDate('g:i a') ?></span>
     </div>
-  </article>
+    <p class="price">$<?= $page->price() ?></p>
+    <a class="cta bg-yellow" href="<?= $page->link() ?>">Reserve</a>
+  </header>
+  <div class="event-details">
+    <?= $page->text()->kt() ?>
+  </div>
 </main>
 <?php snippet('footer') ?>

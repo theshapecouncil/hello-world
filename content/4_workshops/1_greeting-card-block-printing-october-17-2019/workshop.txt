@@ -14,7 +14,17 @@ Date: 2019-10-18
 
 ----
 
-Workshopimage: - cards1__1571029221_72.194.26.31.jpg
+Time: 18:30
+
+----
+
+Price: 50
+
+----
+
+Workshopimage:
+
+- cards1-optimized.jpg
 
 ----
 

@@ -20,11 +20,11 @@
 <body>
   <div class="page">
     <header class="flex-header">
-      <object type="image/svg+xml" data="/images/logo.svg" class="logo">
-        <!-- fallback here (<img> referencing a PNG version of the graphic, for example) -->
-      </object>
-      <h1>
-        Uniting artists, creatives, makers, and community in Kenton, Portland
-      </h1>
+      <a href="<?= $site->homePage()->url()?>">
+        <object type="image/svg+xml" data="/images/logo.svg" class="logo"></object>
+      </a>
+      <?php if($page->isHomePage()): ?>
+        <h1>Uniting artists, creatives, makers, and community in Kenton, Portland</h1>
+      <?php endif ?>
     </header>
 

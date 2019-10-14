@@ -18,18 +18,6 @@
         <h2>Workshops</h2>
         <h3>Let's make something together.</h3>
       </header>
-      <div class="notes">
-    <?php foreach ($page->children()->listed()->sortBy('date', 'desc') as $note): ?>
-    <article class="note">
-      <header class="note-header">
-        <a href="<?= $note->url() ?>">
-          <h2><?= $note->title() ?></h2>
-          <time><?= $note->date()->toDate('d F Y') ?></time>
-        </a>
-      </header>
-    </article>
-    <?php endforeach ?>
-  </div>
       <div class="card-container">
         <figure class="card">
           <a
@@ -158,5 +146,4 @@
       <span class="sub-head yellow">Or whenever the door is open.</span>
     </section>
 </main>
-
 <?php snippet('footer') ?>

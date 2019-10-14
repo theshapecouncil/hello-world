@@ -11,7 +11,7 @@
   </div>
 
   <footer class="footer">
-    <h2>Kenton, Portland</h2>
+    <span>Located in beautiful Kenton, Portland</span>
   </footer>
 
 </body>

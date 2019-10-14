@@ -2,7 +2,7 @@ Title: Workshops
 
 ----
 
-Text: I Think this page shows all the workshops?
+Text: This page should show all the workshops.
 
 ----
 
