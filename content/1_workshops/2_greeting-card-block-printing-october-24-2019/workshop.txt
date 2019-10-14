@@ -10,7 +10,7 @@ Link: https://checkout.square.site/buy/RSLHTMN72GXPYHHZP3QQKU3Y
 
 ----
 
-Date: 2019-10-25
+Date: 2019-10-24
 
 ----
 
@@ -22,7 +22,9 @@ Price: 50
 
 ----
 
-Workshopimage: - cards2-optmized.jpg
+Workshopimage:
+
+- cards2-optmized.jpg
 
 ----
 
