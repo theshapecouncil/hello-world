@@ -266,6 +266,7 @@ main.event header .cta {
         align-items: center;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 2rem 0;
     }
     main.event img {
         grid-area: 1 / 1 / 2 / 2;
