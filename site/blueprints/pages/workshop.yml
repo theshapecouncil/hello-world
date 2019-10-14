@@ -1,0 +1,32 @@
+title: Workshop
+
+icon: 🤠
+
+sections:
+  drafts:
+    extends: sections/albums
+    headline: Drafts
+    status: draft
+
+  listed:
+    extends: sections/albums
+    headline: Published Albums
+    status: listed
+
+fields:
+  eventName:
+    label: Workshop name
+    type: text
+  link:
+    label: Link
+    type: url
+  date:
+    label: Workshop date
+    type: date
+  workshopImage:
+    label: Image
+    type: files
+    multiple: false
+  text:
+    type: textarea
+    size: huge
