@@ -1,4 +1,4 @@
-Title: Greeting Card Block Printing October 17, 2019
+Title: Greeting Card Block Printing October 24, 2019
 
 ----
 
@@ -22,9 +22,7 @@ Price: 50
 
 ----
 
-Workshopimage:
-
-- cards2-optmized.jpg
+Workshopimage: - cards2-optmized.jpg
 
 ----
 
