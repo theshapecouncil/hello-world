@@ -21,7 +21,7 @@
   <div class="page">
     <header class="flex-header">
       <a href="<?= $site->homePage()->url()?>">
-        <object type="image/svg+xml" data="/images/logo.svg" class="logo"></object>
+        <object type="image/svg+xml" data="/assets/images/logo.svg" class="logo"></object>
       </a>
       <?php if($page->isHomePage()): ?>
         <h1>Uniting artists, creatives, makers, and community in Kenton, Portland</h1>

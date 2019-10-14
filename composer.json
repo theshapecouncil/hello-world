@@ -1,6 +1,6 @@
 {
-    "name": "getkirby/starterkit",
-    "description": "Kirby Starterkit",
+    "name": "getkirby/plainkit",
+    "description": "Kirby Plainkit",
     "type": "project",
     "keywords": ["kirby", "cms", "starterkit"],
     "homepage": "https://getkirby.com",
@@ -19,7 +19,8 @@
     },
     "require": {
         "php": ">=7.1.0",
-        "getkirby/cms": "^3.0"
+        "getkirby/cms": "^3.0",
+        "d4l/kirby-static-site-generator": "^1.0"
     },
     "config": {
         "optimize-autoloader": true
