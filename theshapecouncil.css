@@ -12,8 +12,10 @@ h1 {
 
 h2 {
     font-size: 28px;
-    font-weight: 300;
-    margin-bottom: 14px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 .hours h2 {
@@ -144,16 +146,16 @@ figure.card p {
     display: block;
     font-size: 14px;
 }
+
 .date-time .symbol {
     display: none;
 }
 
 @media (min-width: 900px) {
-.date-time {
-    align-items: center;
-    display: flex;
-}
-
+    .date-time {
+        align-items: center;
+        display: flex;
+    }
     .date-time .symbol {
         display: block;
         margin: 0 6px;
@@ -164,21 +166,8 @@ figure.card p {
     font-size: 30px;
 }
 
-@media (max-width: 1000px) {
-    header.grid-header {
-        margin-bottom: calc(16px + 2vw);
-    }
-}
-
-@media (min-width: 1000px) {
-    header.grid-header {
-        display: inline-grid;
-        grid-template-columns: auto auto;
-    }
-    header.grid-header span {
-        margin-left: 3vw;
-        margin-top: 2.7vw;
-    }
+header {
+    margin-bottom: 1rem;
 }
 
 .flex-header h1 {
@@ -191,19 +180,16 @@ figure.card p {
     margin-bottom: 8vw;
 }
 
-@media (min-width: 900px) { 
+@media (min-width: 900px) {
     .flex-header {
         align-items: center;
         display: flex;
         justify-content: center;
         margin-bottom: 64px;
     }
-
     .flex-header h1 {
         margin: 8vw auto 0;
     }
-
-
     .card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
