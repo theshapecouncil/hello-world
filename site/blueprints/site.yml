@@ -13,8 +13,3 @@ columns:
         templates:
           - home
           - default
-
-  - width: 2/2
-      fields:
-        staticSiteGenerator:
-          label: Generate a static version of the site

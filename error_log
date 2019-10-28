@@ -1,0 +1,29 @@
+[26-Oct-2019 13:57:04 America/Los_Angeles] PHP Warning:  include(/home/theshape/public_html/vendor/composer/../filp/whoops/src/Whoops/Run.php): failed to open stream: No such file or directory in /home/theshape/public_html/vendor/composer/ClassLoader.php on line 444
+[26-Oct-2019 13:57:04 America/Los_Angeles] PHP Warning:  include(): Failed opening '/home/theshape/public_html/vendor/composer/../filp/whoops/src/Whoops/Run.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/theshape/public_html/vendor/composer/ClassLoader.php on line 444
+[26-Oct-2019 13:57:04 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'Whoops\Run' not found in /home/theshape/public_html/kirby/src/Cms/AppErrors.php:48
+Stack trace:
+#0 /home/theshape/public_html/kirby/src/Cms/AppErrors.php(43): Kirby\Cms\App->handleHtmlErrors()
+#1 /home/theshape/public_html/kirby/src/Cms/App.php(124): Kirby\Cms\App->handleErrors()
+#2 /home/theshape/public_html/index.php(5): Kirby\Cms\App->__construct()
+#3 {main}
+  thrown in /home/theshape/public_html/kirby/src/Cms/AppErrors.php on line 48
+[26-Oct-2019 13:57:06 America/Los_Angeles] PHP Warning:  include(/home/theshape/public_html/vendor/composer/../filp/whoops/src/Whoops/Util/SystemFacade.php): failed to open stream: No such file or directory in /home/theshape/public_html/vendor/composer/ClassLoader.php on line 444
+[26-Oct-2019 13:57:06 America/Los_Angeles] PHP Warning:  include(): Failed opening '/home/theshape/public_html/vendor/composer/../filp/whoops/src/Whoops/Util/SystemFacade.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/theshape/public_html/vendor/composer/ClassLoader.php on line 444
+[26-Oct-2019 13:57:06 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'Whoops\Util\SystemFacade' not found in /home/theshape/public_html/vendor/filp/whoops/src/Whoops/Run.php:40
+Stack trace:
+#0 /home/theshape/public_html/kirby/src/Cms/AppErrors.php(48): Whoops\Run->__construct()
+#1 /home/theshape/public_html/kirby/src/Cms/AppErrors.php(43): Kirby\Cms\App->handleHtmlErrors()
+#2 /home/theshape/public_html/kirby/src/Cms/App.php(124): Kirby\Cms\App->handleErrors()
+#3 /home/theshape/public_html/index.php(5): Kirby\Cms\App->__construct()
+#4 {main}
+  thrown in /home/theshape/public_html/vendor/filp/whoops/src/Whoops/Run.php on line 40
+[26-Oct-2019 13:57:08 America/Los_Angeles] PHP Warning:  include(/home/theshape/public_html/vendor/composer/../filp/whoops/src/Whoops/Util/SystemFacade.php): failed to open stream: No such file or directory in /home/theshape/public_html/vendor/composer/ClassLoader.php on line 444
+[26-Oct-2019 13:57:08 America/Los_Angeles] PHP Warning:  include(): Failed opening '/home/theshape/public_html/vendor/composer/../filp/whoops/src/Whoops/Util/SystemFacade.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/theshape/public_html/vendor/composer/ClassLoader.php on line 444
+[26-Oct-2019 13:57:08 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class 'Whoops\Util\SystemFacade' not found in /home/theshape/public_html/vendor/filp/whoops/src/Whoops/Run.php:40
+Stack trace:
+#0 /home/theshape/public_html/kirby/src/Cms/AppErrors.php(48): Whoops\Run->__construct()
+#1 /home/theshape/public_html/kirby/src/Cms/AppErrors.php(43): Kirby\Cms\App->handleHtmlErrors()
+#2 /home/theshape/public_html/kirby/src/Cms/App.php(124): Kirby\Cms\App->handleErrors()
+#3 /home/theshape/public_html/index.php(5): Kirby\Cms\App->__construct()
+#4 {main}
+  thrown in /home/theshape/public_html/vendor/filp/whoops/src/Whoops/Run.php on line 40
