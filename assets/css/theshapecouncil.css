@@ -332,7 +332,6 @@ section.homepage-hero .hero-image-2 {
         margin-left: 36px;
     }
     section.homepage-hero .accent-graphic.accent-graphic-1 {
-        margin-left: -36px;
         margin-top: 24px;
         max-width: 43vw;
         z-index: 0;
@@ -341,6 +340,14 @@ section.homepage-hero .hero-image-2 {
         order: 1;
         width: 100%;
         z-index: 1;
+    }
+    .homepage-hero-section-2 {
+        text-align: center;
+        margin: 60px auto 0;
+    }
+    section.homepage-hero .hero-image-2 {
+        margin: 0 auto;
+        max-width: 800px;
     }
 }
 

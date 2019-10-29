@@ -8,13 +8,15 @@
             </div>
             <img class="hero-image hero-image-1" src="images/the-shape-council-storefront.png" />
         </div>
-        <h2>
-            Create together, learn new skills, and support local makers and artists.
-            <br /><br />
-            Join the Shape Council.
-        </h2>
-        <img class="accent-graphic accent-graphic-2" src="images/the-shape-council-accent-graphic-2.png" />
-        <img class="hero-image hero-image-2" src="images/workshop-table.jpeg" />
+        <div class="homepage-hero-section-2">
+            <h2>
+                Create together, learn new skills, and support local makers and artists.
+                <br /><br />
+                Join the Shape Council.
+            </h2>
+            <img class="accent-graphic accent-graphic-2" src="images/the-shape-council-accent-graphic-2.png" />
+            <img class="hero-image hero-image-2" src="images/workshop-table.jpeg" />
+        </div>
     </section>
     <section class="hours">
         <header>
