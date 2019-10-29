@@ -1,20 +1,20 @@
   </div>
   <footer>
-      <section style="background-color:#FBEE55; color:black;" class="location">
+      <section class="bg-yellow location">
           <header>
-              <h2><br>Location</h2>
+              <h2 class="black">Location</h2>
           </header>
-          <p>2105 N Willis Blvd <br>
+          <p class="black">2105 N Willis Blvd <br>
               Kenton, Portland, Oregon</p>
-          <p>The Shape Council is proud to share space with Pep Coworking Shop. We’re bringing coworking and community
+          <p class="black">The Shape Council is proud to share space with Pep Coworking Shop. We’re bringing coworking
+              and community
               together.</p>
-          <p><a style="text-decoration: underline;" href="http://www.pepcoworkingshop.com/">Learn more about Pep
-                  Coworking Shop</a><br></p>
-          <p> </p>
+          <p><a class="black" href="http://www.pepcoworkingshop.com/">Learn more about Pep
+                  Coworking Shop</a></p>
       </section>
       <section class="contact">
           <header>
-              <h2><br>Follow Along</h2>
+              <h2>Follow Along</h2>
           </header>
           <p>Email: info@thshapecouncil.com</p>
           <p><a href="https://www.facebook.com/theshapecouncil/"><object width="50" height="50" type="image/png"

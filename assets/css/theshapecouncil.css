@@ -7,22 +7,24 @@ body {
 
 h1, h2, h3 {
     font-weight: 300;
+    line-height: 1.2;
+    padding-bottom: .2rem;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 56px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 44px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 36px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 @media (min-width: 900px) {
@@ -45,10 +47,6 @@ p+p {
     padding-top: 1.5rem;
 }
 
-.hours {
-    margin-bottom: 8vw;
-}
-
 .hours p+p {
     padding-top: .5rem;
 }
@@ -65,13 +63,12 @@ svg {
 }
 
 section {
-    padding-left: 8vw;
-    padding-right: 8vw;
-    margin-bottom: 8vw;
+    padding: 8vw 8vw 0;
 }
 
-section:last-child {
-    margin-bottom: 100px;
+hr {
+    margin: 8vw auto 0;
+    max-width: 84vw;
 }
 
 .logo {
@@ -112,6 +109,10 @@ section:last-child {
 
 .yellow {
     color: #FBEE55
+}
+
+.black {
+    color: black;
 }
 
 span.sub-head {
@@ -164,14 +165,14 @@ figure.card figcaption {
 
 figure.card figcaption strong {
     display: block;
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 figure.card p {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .date-time {
@@ -203,14 +204,14 @@ figure.card p {
     font-size: 30px;
 }
 
-header {
-    margin-bottom: .5rem;
-}
-
 .flex-header h1 {
     display: block;
     margin: 8vw auto;
     padding: 0 8vw;
+}
+
+.card-container {
+    margin-top: 4vw;
 }
 
 .card-container .card {
@@ -222,7 +223,6 @@ header {
         align-items: center;
         display: flex;
         justify-content: center;
-        margin-bottom: 64px;
     }
     .flex-header h1 {
         margin: 8vw auto 0;
@@ -284,26 +284,45 @@ main.event header .cta {
 }
 
 section.homepage-hero {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
-section.homepage-hero :not(img) {
-    padding: 8vw;
+section.homepage-hero h1 {
+    font-size: 24px;
 }
 
-@media (min-width: 768px) {
-    section.homepage-hero :not(img) {
-        padding: 0;
-    }
-    section.homepage-hero {
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-row-gap: 2vw;
-        padding: 0 8vw;
-    }
-    section.homepage-hero h1, section.homepage-hero h2 {
-        padding: 0 2vw;
-    }
+section.homepage-hero h2 {
+    font-size: 20px;
+}
+
+section.homepage-hero h1, section.homepage-hero h2 {
+    padding: 8vw 8vw 0;
+}
+
+section.homepage-hero .accent-graphic {
+    margin: 0 auto;
+    max-width: 200px;
+    padding-top: 8vw;
+}
+
+section.homepage-hero .hero-image {
+    margin: 0 auto;
+    padding-top: 8vw;
+}
+
+section.homepage-hero .hero-image-2 {
+    max-width: 500px;
+    width: 100%;
+}
+
+.location a {
+    font-size: 16px;
+}
+
+footer {
+    margin: 8vw 0;
+}
+
+footer section {
+    padding: 12vw 8vw;
 }

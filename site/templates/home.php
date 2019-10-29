@@ -2,18 +2,19 @@
 <main>
     <section class="homepage-hero">
         <h1>Uniting artists, creatives, makers, and community in Kenton, Portland</h1>
-        <img src="images/the-shape-council-accent-graphic-1.png" />
-        <img src="images/the-shape-council-storefront.png" />
+        <img class="accent-graphic" src="images/the-shape-council-accent-graphic-1.png" />
+        <img class="hero-image" src="images/the-shape-council-storefront.png" />
         <h2>
             Create together, learn new skills, and support local makers and artists.
             <br /><br />
             Join the Shape Council.
         </h2>
-        <img src="images/workshop-table.jpeg" />
+        <img class="accent-graphic accent-graphic-2" src="images/the-shape-council-accent-graphic-2.png" />
+        <img class="hero-image hero-image-2" src="images/workshop-table.jpeg" />
     </section>
     <section class="hours">
         <header>
-            <h2>Hours</h2>
+            <h2 class="big">Hours</h2>
         </header>
         <p>Wednesdays 1-6</p>
         <p>Thursdays 11-7</p>
@@ -21,10 +22,11 @@
         <p>First & Third Saturdays 10-3</p>
         <p class="yellow">Or whenever the door is open.</p>
     </section>
+    <hr />
     <section class="workshops">
         <header class="grid-header">
-            <h2>Workshops</h2>
-            <h3>Let's make something together.</h3>
+            <h2 class="big">Workshops</h2>
+            <p>Let's make something together.</p>
         </header>
         <div class="card-container">
             <?php 
