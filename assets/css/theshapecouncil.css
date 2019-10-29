@@ -323,6 +323,14 @@ footer {
     margin: 8vw 0;
 }
 
-footer section {
-    padding: 12vw 8vw;
+@media (min-width: 900px) {
+    section {
+        padding: 4vw 8vw 0;
+    }
+    footer {
+        margin: 4vw 0;
+    }
+    footer section {
+        padding: 8vw;
+    }
 }
