@@ -2,6 +2,7 @@
 <main>
     <section class="homepage-hero">
         <h1>Uniting artists, creatives, makers, and community in Kenton, Portland</h1>
+        <img src="images/the-shape-council-accent-graphic-1.png" />
         <img src="images/the-shape-council-storefront.png" />
         <h2>
             Create together, learn new skills, and support local makers and artists.
