@@ -339,6 +339,7 @@ section.homepage-hero .hero-image-2 {
     }
     .hero-image-1 {
         order: 1;
+        width: 100%;
         z-index: 1;
     }
 }
