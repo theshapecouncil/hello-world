@@ -315,6 +315,38 @@ section.homepage-hero .hero-image-2 {
     width: 100%;
 }
 
+@media (min-width: 768px) {
+    section.homepage-hero h1, section.homepage-hero h2, section.homepage-hero .hero-image, section.homepage-hero .accent-graphic {
+        max-width: inherit;
+        padding: 0;
+    }
+    .homepage-hero-section-1 {
+        display: flex;
+        margin: 60px auto 0;
+        max-width: 800px;
+    }
+    .homepage-hero-text-and-graphic-1 {
+        order: 2;
+    }
+    .homepage-hero-text-and-graphic-1 h1 {
+        margin-left: 36px;
+    }
+    section.homepage-hero .accent-graphic.accent-graphic-1 {
+        margin-left: -36px;
+        margin-top: 24px;
+        max-width: 43vw;
+        z-index: 0;
+    }
+    .hero-image-1 {
+        order: 1;
+        z-index: 1;
+    }
+}
+
+section.location {
+    padding: 8vw;
+}
+
 .location a {
     font-size: 16px;
 }

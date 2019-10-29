@@ -1,9 +1,13 @@
 <?php snippet('header') ?>
 <main>
     <section class="homepage-hero">
-        <h1>Uniting artists, creatives, makers, and community in Kenton, Portland</h1>
-        <img class="accent-graphic" src="images/the-shape-council-accent-graphic-1.png" />
-        <img class="hero-image" src="images/the-shape-council-storefront.png" />
+        <div class="homepage-hero-section-1">
+            <div class="homepage-hero-text-and-graphic-1">
+                <h1>Uniting artists, creatives, makers, and community in Kenton, Portland</h1>
+                <img class="accent-graphic accent-graphic-1" src="images/the-shape-council-accent-graphic-1.png" />
+            </div>
+            <img class="hero-image hero-image-1" src="images/the-shape-council-storefront.png" />
+        </div>
         <h2>
             Create together, learn new skills, and support local makers and artists.
             <br /><br />
