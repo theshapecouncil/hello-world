@@ -248,6 +248,10 @@ main.event header {
     padding: 2rem;
 }
 
+main.event h1 {
+    font-size: 24px;
+}
+
 main.event img {
     order: 1;
 }
@@ -269,7 +273,7 @@ main.event header .cta {
         justify-items: center;
         align-items: center;
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 60px auto 0;
     }
     main.event img {
         grid-area: 1 / 1 / 2 / 2;
