@@ -352,6 +352,7 @@ section.homepage-hero .hero-image-2 {
     .homepage-hero-section-2 {
         display: flex;
         margin: -60px auto 0;
+        max-width: 1200px;
         z-index: 2;
     }
     section.homepage-hero .accent-graphic-2 {
