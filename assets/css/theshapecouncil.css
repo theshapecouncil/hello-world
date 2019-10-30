@@ -324,10 +324,14 @@ section.homepage-hero .hero-image-2 {
         max-width: inherit;
         padding: 0;
     }
+    .homepage-hero-section-1, .homepage-hero-section-2 {
+        position: relative;
+    }
     .homepage-hero-section-1 {
         display: flex;
         margin: 60px auto 0;
         max-width: 800px;
+        z-index: 1;
     }
     .homepage-hero-text-and-graphic-1 {
         order: 2;
@@ -346,12 +350,23 @@ section.homepage-hero .hero-image-2 {
         z-index: 1;
     }
     .homepage-hero-section-2 {
-        text-align: center;
-        margin: 60px auto 0;
+        display: flex;
+        margin: -60px auto 0;
+        z-index: 2;
+    }
+    section.homepage-hero .accent-graphic-2 {
+        margin: -140px auto 0;
+        max-width: 31vw;
+        order: 1;
     }
     section.homepage-hero .hero-image-2 {
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 33vw;
+        order: 2;
+    }
+    section.homepage-hero h2 {
+        padding-left: 36px;
+        order: 3;
     }
 }
 
