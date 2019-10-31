@@ -3,6 +3,7 @@ title: Site
 columns:
   - width: 1/2
     sections:
+      artists: sections/artists
       workshops: sections/workshops
 
   - width: 1/2

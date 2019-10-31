@@ -1,0 +1,17 @@
+title: Workshops
+
+icon: 🤠
+
+sections:
+  drafts:
+    headline: Drafts
+    status: draft
+
+  listed:
+    headline: Published Workshops
+    status: listed
+
+fields:
+  text:
+    type: textarea
+    size: huge

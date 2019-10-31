@@ -1,0 +1,9 @@
+Title: Artists
+
+----
+
+Text: This page should show all the artists.
+
+----
+
+Published: 
