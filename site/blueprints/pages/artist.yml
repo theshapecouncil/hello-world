@@ -1,4 +1,4 @@
-title: Workshop
+title: Artist
 
 icon: 🤠
 
@@ -8,30 +8,17 @@ sections:
     status: draft
 
   listed:
-    headline: Published Workshops
+    headline: Published Artist
     status: listed
 
 fields:
   eventName:
-    label: Workshop name
+    label: Artist name
     type: text
   link:
     label: Link
     type: url
-  date:
-    label: Workshop date
-    type: date
-  time:
-    label: Time
-    type: time
-    notation: 12
-  price:
-    label: Price
-    type: number
-    before: $
-    step: 0.01
-    width: 1/3
-  workshopImage:
+  artistImage:
     label: Image
     type: files
     multiple: false

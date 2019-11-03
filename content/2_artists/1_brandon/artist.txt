@@ -1,0 +1,23 @@
+Title: Brandon
+
+----
+
+Eventname: Brandon Scott
+
+----
+
+Link: http://www.brandonandrewscott.com
+
+----
+
+Artistimage:
+
+- brandon-scott-framed-up.jpg
+
+----
+
+Shortdescription: Pretty good fella with a good eye and good heart.
+
+----
+
+Text: 

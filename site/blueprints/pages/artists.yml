@@ -1,6 +1,6 @@
-title: Workshops
+title: Artists
 
-icon: 🤠
+icon: 👩‍🎨
 
 sections:
   drafts:
@@ -8,7 +8,7 @@ sections:
     status: draft
 
   listed:
-    headline: Published Workshops
+    headline: Published Artists
     status: listed
 
 fields:

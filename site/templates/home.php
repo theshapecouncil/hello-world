@@ -29,10 +29,35 @@
         <p class="yellow">Or whenever the door is open.</p>
     </section>
     <hr />
+    <section class="artists">
+        <header class="grid-header">
+            <h2 class="big">Artists</h2>
+            <p>Representing emerging and established artists of Portland</p>
+        </header>
+        <div class="card-container">
+            <?php 
+        if ($artistsPage = page('artists')): ?>
+            <?php foreach ($artistsPage->children()->listed() as $artist): ?>
+            <figure class="card">
+                <!-- <a href="<?= $artist->url() ?>"></a> -->
+                <?php if($image = $artist->artistImage()): ?>
+                <img src="<?= $image->toFile()->url() ?>" alt="">
+                <?php endif ?>
+                <figcaption>
+                    <div class="artist-description">
+                        <?= $artist->shortDescription()->kt() ?>
+                    </div>
+                </figcaption>
+            </figure>
+            <?php endforeach ?>
+            <?php endif ?>
+        </div>
+    </section>
+
     <section class="workshops">
         <header class="grid-header">
             <h2 class="big">Workshops</h2>
-            <p>Let's make something together.</p>
+            <p>Let's make something together</p>
         </header>
         <div class="card-container">
             <?php 
