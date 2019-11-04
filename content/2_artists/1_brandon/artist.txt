@@ -2,7 +2,7 @@ Title: Brandon
 
 ----
 
-Eventname: Brandon Scott
+Artistname: Brandon Scott
 
 ----
 
@@ -21,3 +21,7 @@ Shortdescription: Pretty good fella with a good eye and good heart.
 ----
 
 Text: 
+
+----
+
+Eventname: Brandon Scott

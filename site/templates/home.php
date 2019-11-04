@@ -44,6 +44,7 @@
                 <img src="<?= $image->toFile()->url() ?>" alt="">
                 <?php endif ?>
                 <figcaption>
+                    <strong class="yellow"><?= $artist->artistName() ?></strong>
                     <div class="artist-description">
                         <?= $artist->shortDescription()->kt() ?>
                     </div>

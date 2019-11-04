@@ -12,7 +12,7 @@ sections:
     status: listed
 
 fields:
-  eventName:
+  artistName:
     label: Artist name
     type: text
   link:

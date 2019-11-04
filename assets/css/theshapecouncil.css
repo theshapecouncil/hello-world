@@ -5,9 +5,7 @@ body {
   font-weight: 300;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 0.2rem;
@@ -45,11 +43,11 @@ p {
   line-height: 1.5;
 }
 
-p + p {
+p+p {
   padding-top: 1.5rem;
 }
 
-.hours p + p {
+.hours p+p {
   padding-top: 0.5rem;
 }
 
@@ -170,6 +168,7 @@ figure.card figcaption strong {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
+  padding-bottom: 6px;
 }
 
 figure.card p {
@@ -179,11 +178,10 @@ figure.card p {
 
 .date-time {
   font-size: 14px;
-  padding: 6px 0;
+  padding-bottom: 6px;
 }
 
-.date-time span,
-.date-time time {
+.date-time span, .date-time time {
   display: block;
 }
 
@@ -302,8 +300,7 @@ section.homepage-hero h2 {
   font-size: 20px;
 }
 
-section.homepage-hero h1,
-section.homepage-hero h2 {
+section.homepage-hero h1, section.homepage-hero h2 {
   padding: 8vw 8vw 0;
 }
 
@@ -324,15 +321,11 @@ section.homepage-hero .hero-image-2 {
 }
 
 @media (min-width: 768px) {
-  section.homepage-hero h1,
-  section.homepage-hero h2,
-  section.homepage-hero .hero-image,
-  section.homepage-hero .accent-graphic {
+  section.homepage-hero h1, section.homepage-hero h2, section.homepage-hero .hero-image, section.homepage-hero .accent-graphic {
     max-width: inherit;
     padding: 0;
   }
-  .homepage-hero-section-1,
-  .homepage-hero-section-2 {
+  .homepage-hero-section-1, .homepage-hero-section-2 {
     position: relative;
   }
   .homepage-hero-section-1 {
