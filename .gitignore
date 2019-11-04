@@ -9,3 +9,5 @@ node_modules
 
 *CNAME*
 docs/CNAME
+
+site/sessions
