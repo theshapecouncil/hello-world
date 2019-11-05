@@ -1,0 +1,17 @@
+title: Makers
+
+icon: 🔨
+
+sections:
+  drafts:
+    headline: Drafts
+    status: draft
+
+  listed:
+    headline: Published Makers
+    status: listed
+
+fields:
+  text:
+    type: textarea
+    size: huge
