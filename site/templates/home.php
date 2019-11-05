@@ -10,7 +10,7 @@
         </div>
         <div class="homepage-hero-section-2">
             <h2>
-                Create together, learn new skills, and support local makers and artists.
+                Create together, learn <br /> new skills, and support <br /> local makers and artists.
                 <br /><br />
                 Join the Shape Council.
             </h2>

@@ -324,7 +324,7 @@ section.homepage-hero .hero-image-2 {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   section.homepage-hero h1, section.homepage-hero h2, section.homepage-hero .hero-image, section.homepage-hero .accent-graphic {
     max-width: inherit;
     padding: 0;
@@ -345,33 +345,38 @@ section.homepage-hero .hero-image-2 {
     margin-left: 36px;
   }
   section.homepage-hero .accent-graphic.accent-graphic-1 {
-    margin-top: 24px;
-    max-width: 43vw;
+    margin-top: 48px;
+    max-width: 400px;
     z-index: 0;
   }
   .hero-image-1 {
     order: 1;
+    max-width: 443px;
     width: 100%;
     z-index: 1;
   }
   .homepage-hero-section-2 {
     display: flex;
-    margin: -60px auto 0;
-    max-width: 1200px;
+    margin: -80px auto 0;
+    max-width: 1000px;
     z-index: 2;
   }
   section.homepage-hero .accent-graphic-2 {
-    margin: -140px auto 0;
-    max-width: 31vw;
+    height: 225px;
+    margin: -70px auto 0;
+    max-width: 300px;
     order: 1;
   }
   section.homepage-hero .hero-image-2 {
-    margin: 0 auto;
-    max-width: 33vw;
+    height: 275px;
+    margin: -60px 0px 0 80px;
+    max-width: 275px;
     order: 2;
   }
   section.homepage-hero h2 {
+    margin-top: 48px;
     padding-left: 36px;
+    padding-right: 24px;
     order: 3;
   }
 }
