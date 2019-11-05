@@ -48,6 +48,27 @@
                     <strong class="green"><?= $artist->artistName() ?></strong>
                     <div class="artist-description">
                         <?= $artist->shortDescription()->kt() ?>
+
+                        <?php $websites = $artist->websites()->toStructure(); ?>
+                        <?php foreach ($websites as $website): ?>
+
+                        <?php if($website->twitter()->url()->isNotEmpty()): ?>
+                        <a href="<?= $website->twitter()->url() ?>">twitter</a>
+                        <?php endif ?>
+
+                        <?php if($website = $website->instagram()->url()->isNotEmpty()): ?>
+                        <a href="<?= $website->instagram()->url() ?>">instagram</a>
+                        <?php endif ?>
+
+                        <?php if($facebook = $website->facebook()->url()->isNotEmpty()): ?>
+                        <a href="<?= $website->facebook()->url() ?>">facebook</a>
+                        <?php endif ?>
+
+                        <?php if($website = $website->website()->url()->isNotEmpty()): ?>
+                        <a href="<?= $website->website()->url() ?>">website</a>
+                        <?php endif ?>
+
+                        <?php endforeach ?>
                     </div>
                 </figcaption>
             </figure>
@@ -93,7 +114,7 @@
         if ($workshopsPage = page('workshops')): ?>
             <?php foreach ($workshopsPage->children()->listed() as $workshop): ?>
             <figure class="card">
-                <a href="<?= $workshop->url() ?>"></a>
+                <a class="card-is-link" href="<?= $workshop->url() ?>"></a>
                 <?php if($image = $workshop->workshopImage()): ?>
                 <img src="<?= $image->toFile()->url() ?>" alt="">
                 <?php endif ?>

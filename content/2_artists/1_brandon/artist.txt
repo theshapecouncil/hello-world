@@ -6,7 +6,13 @@ Artistname: Brandon Scott
 
 ----
 
-Link: http://www.brandonandrewscott.com
+Websites:
+
+- 
+  twitter: https://twitter.com
+  instagram: ""
+  facebook: ""
+  website: ""
 
 ----
 
@@ -21,6 +27,10 @@ Shortdescription: Pretty good fella with a good eye and good heart.
 ----
 
 Text: 
+
+----
+
+Link: http://www.brandonandrewscott.com
 
 ----
 

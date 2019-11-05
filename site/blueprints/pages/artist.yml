@@ -15,9 +15,23 @@ fields:
   artistName:
     label: Artist name
     type: text
-  link:
-    label: Link
-    type: url
+  websites:
+    label: Websites
+    type: structure
+    max: 1
+    fields:
+      twitter:
+        label: Twitter
+        type: url
+      instagram:
+        label: Instagram
+        type: url
+      facebook:
+        label: Facebook
+        type: url
+      website:
+        label: Website
+        type: url
   artistImage:
     label: Image
     type: files

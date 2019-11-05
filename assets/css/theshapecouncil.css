@@ -27,6 +27,11 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: white;
+  font-size: 16px;
+}
+
 @media (min-width: 900px) {
   h1 {
     font-size: 32px;
@@ -144,13 +149,13 @@ figure.card {
   position: relative;
 }
 
-figure.card a {
+figure.card a.card-is-link {
   border: rgba(255, 255, 255, 0.2) 1px solid;
   border-radius: 8px;
   transition: 200ms ease-in-out;
 }
 
-figure.card a:hover {
+figure.card a.card-is-link:hover {
   border-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -168,7 +173,7 @@ figure.card .event-description {
   grid-area: 3 / 1 / 4 / 3;
 }
 
-figure.card a {
+figure.card a.card-is-link {
   left: 0;
   height: 100%;
   position: absolute;
@@ -430,22 +435,24 @@ section.hours p+p {
   }
 }
 
-.location a {
-  font-size: 16px;
-}
-
 footer {
   margin: 8vw 0;
 }
 
+footer section.location {
+  padding: 8vw;
+}
+
 @media (min-width: 900px) {
   section {
-    padding: 4vw 8vw 0;
+    margin-top: 64px;
+    padding: 0 8vw 0;
   }
   footer {
     margin: 4vw 0 0;
   }
   footer section {
     padding: 8vw;
+    margin-top: 0;
   }
 }
