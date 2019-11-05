@@ -20,19 +20,20 @@
     </section>
     <section class="hours">
         <header>
-            <h2 class="big">Hours</h2>
+            <h2 class="grey big">Hours <span class="yellow">*</span></h2>
         </header>
-        <p>Wednesdays 1-6</p>
-        <p>Thursdays 11-7</p>
-        <p>Fridays 11-7</p>
-        <p>First & Third Saturdays 10-3</p>
-        <p class="yellow">Or whenever the door is open.</p>
+        <div class="hours-by-day">
+            <p>Wednesdays 1-7</p>
+            <p>Thursdays 11-7</p>
+            <p>Fridays 11-7</p>
+            <p>Second & Fourth Saturdays 10-3</p>
+            <p class="yellow">Or whenever the door is open.</p>
+        </div>
     </section>
-    <hr />
     <section class="artists">
-        <header class="grid-header">
+        <header class="section-header">
             <h2 class="big">Artists</h2>
-            <p>Representing emerging and established artists of Portland</p>
+            <p class="green">Representing emerging and established artists of Portland</p>
         </header>
         <div class="card-container">
             <?php 
@@ -44,7 +45,7 @@
                 <img src="<?= $image->toFile()->url() ?>" alt="">
                 <?php endif ?>
                 <figcaption>
-                    <strong class="yellow"><?= $artist->artistName() ?></strong>
+                    <strong class="green"><?= $artist->artistName() ?></strong>
                     <div class="artist-description">
                         <?= $artist->shortDescription()->kt() ?>
                     </div>
@@ -56,7 +57,7 @@
     </section>
 
     <section class="shop">
-        <header class="grid-header">
+        <header class="section-header">
             <h2 class="big">Shop</h2>
             <p>Featured makers</p>
         </header>
@@ -83,9 +84,9 @@
 
 
     <section class="workshops">
-        <header class="grid-header">
+        <header class="section-header">
             <h2 class="big">Workshops</h2>
-            <p>Let's make something together</p>
+            <p class="blue">Let's make something together</p>
         </header>
         <div class="card-container">
             <?php 
@@ -97,7 +98,7 @@
                 <img src="<?= $image->toFile()->url() ?>" alt="">
                 <?php endif ?>
                 <figcaption>
-                    <strong class="yellow"><?= $workshop->eventName() ?></strong>
+                    <strong class="blue"><?= $workshop->eventName() ?></strong>
                     <div class="date-time">
                         <time class="event-date"><?= $workshop->date()->toDate('F d, Y') ?> </time>
                         <span class="symbol">&#9670;</span>

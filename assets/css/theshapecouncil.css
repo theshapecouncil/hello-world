@@ -31,8 +31,13 @@ p {
   h1 {
     font-size: 32px;
   }
-  h2 {
-    font-size: 28px;
+  h2.big {
+    font-size: 96px;
+    line-height: 1;
+  }
+  h2.big+p {
+    font-size: 24px;
+    line-height: 29px;
   }
   h3 {
     font-size: 24px;
@@ -45,10 +50,6 @@ p {
 
 p+p {
   padding-top: 1.5rem;
-}
-
-.hours p+p {
-  padding-top: 0.5rem;
 }
 
 img {
@@ -113,6 +114,18 @@ hr {
 
 .black {
   color: black;
+}
+
+.green {
+  color: #3CEBAC;
+}
+
+.grey {
+  color: #9D9D9D;
+}
+
+.blue {
+  color: #5583FA;
 }
 
 span.sub-head {
@@ -379,8 +392,42 @@ section.homepage-hero .hero-image-2 {
   }
 }
 
-section.location {
-  padding: 8vw;
+section.hours p+p {
+  padding-top: 0.5rem;
+}
+
+@media (min-width: 900px) {
+  section.hours {
+    display: flex;
+    justify-content: center;
+    margin: 64px 0px 0 110px;
+    padding: 0;
+  }
+  section.hours h2, section.hours p {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  section.hours p:last-of-type {
+    font-size: 24px;
+    line-height: 1;
+    padding-top: 2rem;
+  }
+  section.hours .hours-by-day {
+    border-left: 1px solid gray;
+    margin-left: 36px;
+    padding-left: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-header {
+    display: flex;
+    align-items: center;
+  }
+  .section-header p {
+    margin-left: 24px;
+    max-width: 370px;
+  }
 }
 
 .location a {
