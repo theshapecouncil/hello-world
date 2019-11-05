@@ -121,7 +121,6 @@ span.sub-head {
 
 figure.card {
   background: #1b1b1b;
-  border: rgba(255, 255, 255, 0.2) 1px solid;
   border-radius: 8px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -130,10 +129,15 @@ figure.card {
   grid-row-gap: 12px;
   padding: 12px;
   position: relative;
-  transition: 300ms;
 }
 
-figure.card:hover {
+figure.card a {
+  border: rgba(255, 255, 255, 0.2) 1px solid;
+  border-radius: 8px;
+  transition: 200ms ease-in-out;
+}
+
+figure.card a:hover {
   border-color: rgba(255, 255, 255, 0.6);
 }
 

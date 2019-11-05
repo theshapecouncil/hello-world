@@ -4,6 +4,7 @@ columns:
   - width: 1/2
     sections:
       artists: sections/artists
+      makers: sections/makers
       workshops: sections/workshops
 
   - width: 1/2

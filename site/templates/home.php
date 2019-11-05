@@ -55,6 +55,33 @@
         </div>
     </section>
 
+    <section class="shop">
+        <header class="grid-header">
+            <h2 class="big">Shop</h2>
+            <p>Featured makers</p>
+        </header>
+        <div class="card-container">
+            <?php 
+        if ($makersPage = page('makers')): ?>
+            <?php foreach ($makersPage->children()->listed() as $maker): ?>
+            <figure class="card">
+                <!-- <a href="<?= $maker->url() ?>"></a> -->
+                <?php if($image = $maker->makerImage()): ?>
+                <img src="<?= $image->toFile()->url() ?>" alt="">
+                <?php endif ?>
+                <figcaption>
+                    <strong class="yellow"><?= $maker->makerName() ?></strong>
+                    <div class="maker-description">
+                        <?= $maker->shortDescription()->kt() ?>
+                    </div>
+                </figcaption>
+            </figure>
+            <?php endforeach ?>
+            <?php endif ?>
+        </div>
+    </section>
+
+
     <section class="workshops">
         <header class="grid-header">
             <h2 class="big">Workshops</h2>

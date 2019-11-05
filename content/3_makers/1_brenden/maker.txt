@@ -1,0 +1,26 @@
+Title: Brenden
+
+----
+
+Makername: Brenden Smalls
+
+----
+
+Link: http://www.adultswim.com
+
+----
+
+Makerimage:
+
+- brandon-and-pie.jpg
+
+----
+
+Shortdescription:
+
+Take a look at that guy, he's definitely got what it takes.
+To go all the way.
+
+----
+
+Text: 
