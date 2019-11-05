@@ -309,14 +309,12 @@ section.homepage-hero h1, section.homepage-hero h2 {
 }
 
 section.homepage-hero .accent-graphic {
-  margin: 0 auto;
+  margin: 36px auto 0;
   max-width: 200px;
-  padding-top: 8vw;
 }
 
 section.homepage-hero .hero-image {
-  margin: 0 auto;
-  padding-top: 8vw;
+  margin: 36px auto 0;
 }
 
 section.homepage-hero .hero-image-2 {
@@ -363,7 +361,7 @@ section.homepage-hero .hero-image-2 {
   }
   section.homepage-hero .accent-graphic-2 {
     height: 225px;
-    margin: -70px auto 0;
+    margin: -25px auto 0;
     max-width: 300px;
     order: 1;
   }
