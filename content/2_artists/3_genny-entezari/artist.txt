@@ -1,0 +1,31 @@
+Title: Genny Entezari
+
+----
+
+Artistname: Genny Entezari
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: >
+    https://www.instagram.com/gennyentezariart/
+  facebook: >
+    https://www.facebook.com/gennyentezariart/
+  website: https://www.gennyentezari.com/
+
+----
+
+Artistimage:
+
+- rain-will-be-here-soon-enough-1.jpg
+
+----
+
+Shortdescription: Genny creates intuitive and abstract art for inner wanderlusters of color, joy and journeys.
+
+----
+
+Text: 

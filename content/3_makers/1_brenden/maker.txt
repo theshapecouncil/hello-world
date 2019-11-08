@@ -1,25 +1,20 @@
-Title: Brenden
+Title: Hand Brand Book Co
 
 ----
 
-Makername: Brenden Smalls
+Makername: Hand Brand Book Co.
 
 ----
 
-Link: http://www.adultswim.com
+Link: https://www.handbrand.co/
 
 ----
 
-Makerimage:
-
-- brandon-and-pie.jpg
+Makerimage: - cover-block.jpg
 
 ----
 
-Shortdescription:
-
-Take a look at that guy, he's definitely got what it takes.
-To go all the way.
+Shortdescription: Notebooks, journals & sketchbooks from Portland, Oregon
 
 ----
 

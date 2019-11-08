@@ -1,0 +1,30 @@
+Title: Arts and Rec Press
+
+----
+
+Artistname: Arts and Rec Press
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: >
+    https://www.instagram.com/artsandrecpress/
+  facebook: ""
+  website: https://www.artsandrecpress.com
+
+----
+
+Artistimage:
+
+- dsc00031.jpg
+
+----
+
+Shortdescription: Diedre Thompson creates colorful, witty and creative paper goods for colorful, witty and creative people.
+
+----
+
+Text: 

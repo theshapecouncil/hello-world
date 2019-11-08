@@ -1,0 +1,30 @@
+Title: BDYK
+
+----
+
+Artistname: Best Designer You Know
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: ""
+  facebook: ""
+  website: >
+    https://bestdesigneryouknow.square.site/home
+
+----
+
+Artistimage:
+
+- still-a-hue.png
+
+----
+
+Shortdescription: With a background in design and art, BDYK uses his background to create pieces that intrigue and rest the wandering eye.
+
+----
+
+Text: 

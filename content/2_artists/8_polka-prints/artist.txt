@@ -1,0 +1,29 @@
+Title: Polka Prints
+
+----
+
+Artistname: Polka Prints
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: https://www.instagram.com/polka_prints/
+  facebook: ""
+  website: https://www.polkaprints.com/
+
+----
+
+Artistimage:
+
+- il_fullxfull.1905400576_ea2t.jpg
+
+----
+
+Shortdescription: Julia Giebultowicz is a printmaker, teacher, and artist from Portland. She creates silly greeting cards and prints inspired by the northwest.
+
+----
+
+Text: 

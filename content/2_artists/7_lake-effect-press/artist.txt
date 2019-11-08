@@ -1,0 +1,30 @@
+Title: Lake Effect Press
+
+----
+
+Artistname: Lake Effect Press
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: >
+    https://www.instagram.com/lakeeffectpress/
+  facebook: ""
+  website: https://www.lakeeffectpnw.com/
+
+----
+
+Artistimage:
+
+- img_5349.jpg
+
+----
+
+Shortdescription: Brie Larson is a printmaker and artists in Portland. Her work is influenced by the lush landscape of the Pacific Northwest and her passion for hiking and skiing.
+
+----
+
+Text: 

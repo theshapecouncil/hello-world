@@ -10,7 +10,7 @@ Websites:
 
 - 
   twitter: https://twitter.com
-  instagram: ""
+  instagram: https://instagram.com
   facebook: ""
   website: ""
 

@@ -1,0 +1,31 @@
+Title: Suffragette Studio
+
+----
+
+Artistname: Suffragette Studio
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: >
+    https://www.instagram.com/suffragettestudio/
+  facebook: ""
+  website: https://www.suffragettestudio.com/
+
+----
+
+Artistimage:
+
+- >
+  palms_motel_risograph_suffragettestudio_racheldelmotte.png
+
+----
+
+Shortdescription: Rachel Delmotte creates art prints and love notes for the prosperity of all babes.
+
+----
+
+Text: 

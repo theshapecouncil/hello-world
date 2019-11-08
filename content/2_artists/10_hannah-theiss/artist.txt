@@ -1,0 +1,30 @@
+Title: Hannah Theiss
+
+----
+
+Artistname: Hannah Theiss
+
+----
+
+Websites:
+
+- 
+  twitter: ""
+  instagram: >
+    https://www.instagram.com/hannah_prints_/
+  facebook: https://www.facebook.com/hannahprintspdx
+  website: https://hannah-prints.com/
+
+----
+
+Artistimage:
+
+- hannahtheiss_sample2_sq.jpg
+
+----
+
+Shortdescription: Hannah Theiss, The Shape Council's own resident artist, focuses on printmaking and exploring abstract and natural form, pattern and texture.
+
+----
+
+Text: 

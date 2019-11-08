@@ -39,8 +39,9 @@
             <?php 
         if ($artistsPage = page('artists')): ?>
             <?php foreach ($artistsPage->children()->listed() as $artist): ?>
-            <figure class="card">
+            <figure class="card card-artist">
                 <!-- <a href="<?= $artist->url() ?>"></a> -->
+                <?php $artist->artistImage()->toFile()->url() ?>
                 <?php if($image = $artist->artistImage()): ?>
                 <img src="<?= $image->toFile()->url() ?>" alt="">
                 <?php endif ?>
@@ -48,27 +49,28 @@
                     <strong class="green"><?= $artist->artistName() ?></strong>
                     <div class="artist-description">
                         <?= $artist->shortDescription()->kt() ?>
+                        <div class="external-links">
+                            <?php $websites = $artist->websites()->toStructure(); ?>
+                            <?php foreach ($websites as $website): ?>
 
-                        <?php $websites = $artist->websites()->toStructure(); ?>
-                        <?php foreach ($websites as $website): ?>
+                            <?php if($website->twitter()->url()->isNotEmpty()): ?>
+                            <a href="<?= $website->twitter()->url() ?>">twitter</a>
+                            <?php endif ?>
 
-                        <?php if($website->twitter()->url()->isNotEmpty()): ?>
-                        <a href="<?= $website->twitter()->url() ?>">twitter</a>
-                        <?php endif ?>
+                            <?php if($website->instagram()->url()->isNotEmpty()): ?>
+                            <a href="<?= $website->instagram()->url() ?>">instagram</a>
+                            <?php endif ?>
 
-                        <?php if($website = $website->instagram()->url()->isNotEmpty()): ?>
-                        <a href="<?= $website->instagram()->url() ?>">instagram</a>
-                        <?php endif ?>
+                            <?php if($website->facebook()->url()->isNotEmpty()): ?>
+                            <a href="<?= $website->facebook()->url() ?>">facebook</a>
+                            <?php endif ?>
 
-                        <?php if($facebook = $website->facebook()->url()->isNotEmpty()): ?>
-                        <a href="<?= $website->facebook()->url() ?>">facebook</a>
-                        <?php endif ?>
+                            <?php if($website->website()->url()->isNotEmpty()): ?>
+                            <a href="<?= $website->website()->url() ?>">website</a>
+                            <?php endif ?>
 
-                        <?php if($website = $website->website()->url()->isNotEmpty()): ?>
-                        <a href="<?= $website->website()->url() ?>">website</a>
-                        <?php endif ?>
-
-                        <?php endforeach ?>
+                            <?php endforeach ?>
+                        </div>
                     </div>
                 </figcaption>
             </figure>
@@ -80,13 +82,13 @@
     <section class="shop">
         <header class="section-header">
             <h2 class="big">Shop</h2>
-            <p>Featured makers</p>
+            <p class="yellow">Featured makers</p>
         </header>
         <div class="card-container">
             <?php 
         if ($makersPage = page('makers')): ?>
             <?php foreach ($makersPage->children()->listed() as $maker): ?>
-            <figure class="card">
+            <figure class="card card-maker">
                 <!-- <a href="<?= $maker->url() ?>"></a> -->
                 <?php if($image = $maker->makerImage()): ?>
                 <img src="<?= $image->toFile()->url() ?>" alt="">
@@ -102,18 +104,16 @@
             <?php endif ?>
         </div>
     </section>
-
-
     <section class="workshops">
         <header class="section-header">
             <h2 class="big">Workshops</h2>
             <p class="blue">Let's make something together</p>
         </header>
-        <div class="card-container">
+        <div class="card-container card-container-events">
             <?php 
         if ($workshopsPage = page('workshops')): ?>
             <?php foreach ($workshopsPage->children()->listed() as $workshop): ?>
-            <figure class="card">
+            <figure class="card card-event">
                 <a class="card-is-link" href="<?= $workshop->url() ?>"></a>
                 <?php if($image = $workshop->workshopImage()): ?>
                 <img src="<?= $image->toFile()->url() ?>" alt="">
