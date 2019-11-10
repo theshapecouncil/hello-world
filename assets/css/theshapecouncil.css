@@ -5,7 +5,9 @@ body {
   font-weight: 300;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 300;
   line-height: 1.2;
   padding-bottom: 0.2rem;
@@ -40,7 +42,7 @@ a {
     font-size: 96px;
     line-height: 1;
   }
-  h2.big+p {
+  h2.big + p {
     font-size: 24px;
     line-height: 29px;
   }
@@ -53,7 +55,7 @@ p {
   line-height: 1.5;
 }
 
-p+p {
+p + p {
   padding-top: 1.5rem;
 }
 
@@ -113,6 +115,10 @@ hr {
   background: #fbee55;
 }
 
+.bg-white {
+  background: white;
+}
+
 .yellow {
   color: #fbee55;
 }
@@ -122,15 +128,23 @@ hr {
 }
 
 .green {
-  color: #3CEBAC;
+  color: #3cebac;
 }
 
 .grey {
-  color: #9D9D9D;
+  color: #9d9d9d;
+}
+
+.bg-grey {
+  background-color: lightgray;
+}
+
+.text-dark {
+  color: black;
 }
 
 .blue {
-  color: #5583FA;
+  color: #5583fa;
 }
 
 span.sub-head {
@@ -158,7 +172,7 @@ figure.card.card-event {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr auto;
   grid-column-gap: calc(16px + 1vw);
-  grid-row-gap: 12px;
+  grid-row-gap: 24px;
   padding: 12px;
   width: inherit;
 }
@@ -233,7 +247,8 @@ figure.card p {
   padding-bottom: 6px;
 }
 
-.date-time span, .date-time time {
+.date-time span,
+.date-time time {
   display: block;
 }
 
@@ -300,7 +315,7 @@ figure.card p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 12px;
-    row-gap: 12px;
+    row-gap: 48px;
   }
   .card-container .card {
     margin-bottom: 0;
@@ -368,7 +383,8 @@ section.homepage-hero h2 {
   font-size: 20px;
 }
 
-section.homepage-hero h1, section.homepage-hero h2 {
+section.homepage-hero h1,
+section.homepage-hero h2 {
   padding: 8vw 8vw 0;
 }
 
@@ -387,11 +403,15 @@ section.homepage-hero .hero-image-2 {
 }
 
 @media (min-width: 900px) {
-  section.homepage-hero h1, section.homepage-hero h2, section.homepage-hero .hero-image, section.homepage-hero .accent-graphic {
+  section.homepage-hero h1,
+  section.homepage-hero h2,
+  section.homepage-hero .hero-image,
+  section.homepage-hero .accent-graphic {
     max-width: inherit;
     padding: 0;
   }
-  .homepage-hero-section-1, .homepage-hero-section-2 {
+  .homepage-hero-section-1,
+  .homepage-hero-section-2 {
     position: relative;
   }
   .homepage-hero-section-1 {
@@ -444,7 +464,7 @@ section.homepage-hero .hero-image-2 {
   }
 }
 
-section.hours p+p {
+section.hours p + p {
   padding-top: 0.5rem;
 }
 
@@ -455,7 +475,8 @@ section.hours p+p {
     margin: 64px 0px 0 110px;
     padding: 0;
   }
-  section.hours h2, section.hours p {
+  section.hours h2,
+  section.hours p {
     font-size: 36px;
     line-height: 43px;
   }
@@ -478,6 +499,7 @@ section.hours p+p {
   }
   .section-header p {
     margin-left: 24px;
+    margin-top: 10px;
     max-width: 370px;
   }
 }
@@ -486,8 +508,36 @@ footer {
   margin: 8vw 0;
 }
 
+footer section.about,
 footer section.location {
   padding: 8vw;
+}
+
+footer section.about h1 {
+  font-size: 96px;
+}
+
+footer section.about h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer section.about p {
+  font-size: 24px;
+}
+
+footer section.about .about-accent-graphic-1 {
+  margin: 24px auto;
+  max-width: 100px;
+}
+
+footer section.about .about-hero-asset-1 {
+  margin-top: 24px;
+}
+
+footer section.location .pep-logo {
+  margin: 24px auto 12px;
+  max-width: 150px;
 }
 
 @media (min-width: 900px) {

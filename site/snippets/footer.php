@@ -1,13 +1,27 @@
   </div>
   <footer>
-      <section class="bg-yellow location">
+      <section class="about bg-grey text-dark">
+          <h1>About</h1>
+          <h2>Hannah Theiss<br />
+              Artist & Designer
+          </h2>
+          <img src="/images/hannah-at-shop-1.png" class="about-hero-asset-1">
+          <img src="/images/graphic-accent-3.png" class="about-accent-graphic-1">
+          <p>Hannah Theiss is a graphic designer and self-taught printmaker. She explores geometric form and natural
+              pattern in her printmaking and loves to share her own expertise. She lives and works in North Portland and
+              is the creative behind the Shape Council.</p>
+      </section>
+      <section class="bg-white text-dark location">
           <header>
-              <h2 class="black">Location</h2>
+              <h2>Location</h2>
           </header>
-          <p class="black">2105 N Willis Blvd <br>
+          <p>2105 N Willis Blvd <br>
               Kenton, Portland, Oregon</p>
-          <p class="black">The Shape Council is proud to share space with Pep Coworking Shop.
+          <p>The Shape Council is proud to share space with Pep Coworking Shop.
               <br />We’re bringing coworking and community together.</p>
+          <a href="http://www.pepcoworkingshop.com/" target="_blank">
+              <img src="images/pep-coworking-shop.png" class="pep-logo">
+          </a>
           <p><a class="black" href="http://www.pepcoworkingshop.com/">Learn more about Pep
                   Coworking Shop</a></p>
       </section>
