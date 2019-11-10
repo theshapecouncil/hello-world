@@ -171,20 +171,13 @@ figure.card.card-event {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr auto;
-  grid-column-gap: calc(16px + 1vw);
-  grid-row-gap: 24px;
   padding: 12px;
   width: inherit;
 }
 
-figure.card a.card-is-link {
-  border: rgba(255, 255, 255, 0.2) 1px solid;
-  border-radius: 8px;
+figure.card.card-is-link:hover {
+  background: rgba(255, 255, 255, 0.2);
   transition: 200ms ease-in-out;
-}
-
-figure.card a.card-is-link:hover {
-  border-color: rgba(255, 255, 255, 0.6);
 }
 
 figure.card img {
@@ -193,15 +186,18 @@ figure.card img {
 
 figure.card.card-event img {
   grid-area: 1 / 1 / 3 / 2;
+  grid-area: 1 / 1 / 3 / 3;
   align-self: center;
 }
 
 figure.card figcaption {
   grid-area: 1 / 2 / 3 / 3;
+  grid-area: 3 / 1 / 3 / 3;
 }
 
 figure.card .event-description {
-  grid-area: 3 / 1 / 4 / 3;
+  grid-area: 4 / 1 / 4 / 3;
+  padding-top: 16px;
 }
 
 figure.card a.card-is-link {
@@ -221,7 +217,7 @@ figure.card figcaption strong {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  padding-top: 6px;
+  padding-top: 12px;
 }
 
 figure.card figcaption .artist-description {
@@ -247,29 +243,21 @@ figure.card p {
   padding-bottom: 6px;
 }
 
-.date-time span,
-.date-time time {
-  display: block;
+.date-time {
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  padding-top: 6px;
 }
 
 .date-time .symbol {
-  display: none;
+  display: block;
+  margin: 0 6px;
 }
 
-@media (min-width: 900px) {
-  .date-time {
-    align-items: center;
-    display: flex;
-    font-size: 16px;
-  }
-  .date-time .symbol {
-    display: block;
-    margin: 0 6px;
-  }
-}
-
-.price {
-  font-size: 30px;
+figure.card p.price {
+  font-size: 28px;
+  padding: 6px 0 0;
 }
 
 .flex-header h1 {
@@ -531,15 +519,28 @@ footer section.about .about-accent-graphic-1 {
   max-width: 100px;
 }
 
+@media (min-width: 768px) {
+  footer section.about .about-accent-graphic-1 {
+    margin: 24px 0;
+  }
+}
+
 footer section.about .about-hero-asset-1 {
   margin-top: 24px;
+}
+
+footer section.location a {
 }
 
 footer section.location .pep-logo {
   margin: 24px auto 12px;
   max-width: 150px;
 }
-
+@media (min-width: 768px) {
+  footer section.location .pep-logo {
+    margin: 24px 0 12px;
+  }
+}
 @media (min-width: 900px) {
   section {
     margin-top: 64px;
