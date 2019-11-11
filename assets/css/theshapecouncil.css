@@ -177,6 +177,7 @@ figure.card.card-event {
 
 figure.card.card-is-link:hover {
   background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
   transition: 200ms ease-in-out;
 }
 
@@ -200,7 +201,7 @@ figure.card .event-description {
   padding-top: 16px;
 }
 
-figure.card a.card-is-link {
+figure.card.card-is-link a.card-is-link {
   left: 0;
   height: 100%;
   position: absolute;

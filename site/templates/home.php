@@ -114,7 +114,7 @@
         if ($workshopsPage = page('workshops')): ?>
             <?php foreach ($workshopsPage->children()->listed() as $workshop): ?>
             <figure class="card card-event card-is-link">
-                <a href="<?= $workshop->url() ?>"></a>
+                <a class="card-is-link" href="<?= $workshop->url() ?>"></a>
                 <?php if($image = $workshop->workshopImage()): ?>
                 <img src="<?= $image->toFile()->url() ?>" alt="">
                 <?php endif ?>
