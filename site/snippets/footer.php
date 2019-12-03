@@ -17,6 +17,28 @@
           </header>
           <p>2105 N Willis Blvd <br>
               Kenton, Portland, Oregon</p>
+          <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="287" height="157" id="gmap_canvas"
+                      src="https://maps.google.com/maps?q=2105%20N%20Willis%20Blvd&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                      href="https://www.divi-discounts.com"></a></div>
+              <style>
+              .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 157px;
+                  margin: 24px 0;
+                  width: 287px;
+              }
+
+              .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 157px;
+                  width: 287px;
+              }
+              </style>
+          </div>
           <p>The Shape Council is proud to share space with Pep Coworking Shop.
               <br />We’re bringing coworking and community together.</p>
           <a href="http://www.pepcoworkingshop.com/" target="_blank">
