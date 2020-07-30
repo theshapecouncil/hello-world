@@ -21,8 +21,3 @@
 
 <body>
     <div class="page">
-        <header class="flex-header">
-            <a href="<?= $site->homePage()->url()?>">
-                <object type="image/svg+xml" data="/assets/images/logo.svg" class="logo"></object>
-            </a>
-        </header>

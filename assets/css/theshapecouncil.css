@@ -38,14 +38,17 @@ a {
   h1 {
     font-size: 32px;
   }
+
   h2.big {
     font-size: 96px;
     line-height: 1;
   }
-  h2.big + p {
+
+  h2.big+p {
     font-size: 24px;
     line-height: 29px;
   }
+
   h3 {
     font-size: 24px;
   }
@@ -55,7 +58,7 @@ p {
   line-height: 1.5;
 }
 
-p + p {
+p+p {
   padding-top: 1.5rem;
 }
 
@@ -160,6 +163,7 @@ figure.card {
   figure.card {
     max-width: 180px;
   }
+
   figure.card.card-event {
     max-width: 100%;
   }
@@ -277,11 +281,13 @@ figure.card p.price {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 36px;
   }
+
   .card-container.card-container-events {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
   }
+
   .card-container.card-container-events .card {
     margin-bottom: 0;
   }
@@ -297,15 +303,18 @@ figure.card p.price {
     display: flex;
     justify-content: center;
   }
+
   .flex-header h1 {
     margin: 8vw auto 0;
   }
+
   .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 12px;
     row-gap: 48px;
   }
+
   .card-container .card {
     margin-bottom: 0;
   }
@@ -348,12 +357,15 @@ main.event header .cta {
     max-width: 1200px;
     margin: 60px auto 0;
   }
+
   main.event img {
     grid-area: 1 / 1 / 2 / 2;
   }
+
   main.event header {
     grid-area: 1 / 2 / 2 / 3;
   }
+
   main.event .event-details {
     grid-area: 2 / 1 / 3 / 3;
     padding: 2rem;
@@ -392,6 +404,7 @@ section.homepage-hero .hero-image-2 {
 }
 
 @media (min-width: 900px) {
+
   section.homepage-hero h1,
   section.homepage-hero h2,
   section.homepage-hero .hero-image,
@@ -399,27 +412,33 @@ section.homepage-hero .hero-image-2 {
     max-width: inherit;
     padding: 0;
   }
+
   .homepage-hero-section-1,
   .homepage-hero-section-2 {
     position: relative;
   }
+
   .homepage-hero-section-1 {
     display: flex;
     margin: 60px auto 0;
     max-width: 800px;
     z-index: 1;
   }
+
   .homepage-hero-text-and-graphic-1 {
     order: 2;
   }
+
   .homepage-hero-text-and-graphic-1 h1 {
     margin-left: 36px;
   }
+
   section.homepage-hero .accent-graphic.accent-graphic-1 {
     margin-top: 48px;
     max-width: 400px;
     z-index: 0;
   }
+
   .hero-image-1 {
     margin-top: 0;
     max-width: 443px;
@@ -427,24 +446,28 @@ section.homepage-hero .hero-image-2 {
     width: 100%;
     z-index: 1;
   }
+
   .homepage-hero-section-2 {
     display: flex;
     margin: -80px auto 0;
     max-width: 1000px;
     z-index: 2;
   }
+
   section.homepage-hero .accent-graphic-2 {
     height: 225px;
     margin: -25px auto 0;
     max-width: 300px;
     order: 1;
   }
+
   section.homepage-hero .hero-image-2 {
     height: 275px;
     margin: -60px 0px 0 80px;
     max-width: 275px;
     order: 2;
   }
+
   section.homepage-hero h2 {
     margin-top: 48px;
     padding-left: 36px;
@@ -453,7 +476,7 @@ section.homepage-hero .hero-image-2 {
   }
 }
 
-section.hours p + p {
+section.hours p+p {
   padding-top: 0.5rem;
 }
 
@@ -464,16 +487,19 @@ section.hours p + p {
     margin: 64px 0px 0 110px;
     padding: 0;
   }
+
   section.hours h2,
   section.hours p {
     font-size: 36px;
     line-height: 43px;
   }
+
   section.hours p:last-of-type {
     font-size: 24px;
     line-height: 1;
     padding-top: 2rem;
   }
+
   section.hours .hours-by-day {
     border-left: 1px solid gray;
     margin-left: 36px;
@@ -486,6 +512,7 @@ section.hours p + p {
     display: flex;
     align-items: center;
   }
+
   .section-header p {
     margin-left: 24px;
     margin-top: 10px;
@@ -530,28 +557,44 @@ footer section.about .about-hero-asset-1 {
   margin-top: 24px;
 }
 
-footer section.location a {
-}
+footer section.location a {}
 
 footer section.location .pep-logo {
   margin: 24px auto 12px;
   max-width: 150px;
 }
+
 @media (min-width: 768px) {
   footer section.location .pep-logo {
     margin: 24px 0 12px;
   }
 }
+
 @media (min-width: 900px) {
   section {
     margin-top: 64px;
     padding: 0 8vw 0;
   }
+
   footer {
     margin: 4vw 0 0;
   }
+
   footer section {
     padding: 8vw;
     margin-top: 0;
   }
+}
+
+.header {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  margin-top: 50px;
+  font-size: 80px;
 }
